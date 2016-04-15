@@ -1,0 +1,13 @@
+<Alloy>
+	<Window class="container" layout="vertical">
+		<View class="header" top="0">
+			<Label class="headerLabel">HelloWorld</Label>
+		</View>		
+		<Label id="label">
+			This is a basic App that can take in your name, send it to a cloud app and display the response.
+		</Label>
+		<TextField id="hello_to"></TextField>
+		<Button onClick="sayHello">Say Hello From The Cloud</Button>
+		<Label id="response"/>
+	</Window>
+</Alloy>
